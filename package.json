@@ -1,0 +1,25 @@
+{
+  "name": "whm-mini",
+  "version": "1.0.0",
+  "description": "Lightweight CI/CD health monitor - quick status checks",
+  "main": "dist/index.js",
+  "bin": {
+    "whm-mini": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["ci", "cd", "health", "monitor"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
